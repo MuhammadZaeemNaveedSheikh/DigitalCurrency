@@ -1,0 +1,106 @@
+@import "reset-style.css";
+@import "header.css";
+@import "footer.css";
+
+main .container p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px
+}
+
+ul {
+    margin-left: 40px;
+}
+
+.bold {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+a,
+a:hover {
+    color: var(--primary);
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.container h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--primary);
+    margin-top: 50px;
+}
+
+.container h5 {
+    margin-top: 20px;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+main section:first-child {
+    margin-bottom: initial;
+}
+
+#accordionExample,
+.accordion-item {
+    background-color: var(--background-color);
+    color: var(--primary);
+    border: 0;
+}
+
+.accordion a:hover {
+    color: #0a58ca;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+    background-color: var(--gray);
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+    background-image: url(/assets/icons/chevron-down-black.svg);
+}
+
+.dark .accordion-button:not(.collapsed)::after,
+.dark .accordion-button::after {
+    background-image: url(/assets/icons/chevron-down-white.svg);
+}
+
+.table {
+    margin-top: 10px;
+    color: var(--primary)
+}
+
+td {
+    border: 1px solid var(--primary);
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+}

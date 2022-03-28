@@ -1,0 +1,150 @@
+@import "reset-style.css";
+@import "header.css";
+@import "footer.css";
+
+.ambassadors-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+/* START - split-section */
+.split-section {
+    position: relative;
+}
+
+.split-section .container {
+    max-width: 100%;
+}
+
+.split-section .text-wrapper {
+    padding: 30px 20%;
+}
+
+.split-section .main-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.split-section img {
+    width: 100%;
+}
+
+.split-section p {
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.split-section .btn {
+    margin-top: 40px;
+}
+
+.split-section .bk-img {
+    position: absolute;
+    left: -30%;
+    bottom: -160px;
+    z-index: -1;
+}
+
+.vertical-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs-container {
+    position: relative;
+}
+
+
+
+.roadmap-line {
+    position: relative;
+    width: 1px;
+    height: 100%;
+    background-color: #707070;
+}
+
+.line-completed {
+    width: 5px;
+    height: 100%;
+    background-color: #6B0DEE;
+}
+
+.line-container{
+    display: flex;
+    justify-content: center;
+}
+
+.split-first-section{
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width:768px) {
+    .image-padding {
+        padding-top: 10%;
+        padding-bottom: 30%;
+    }
+
+    .split-first-section {
+        padding-bottom: 20%;
+    }
+}
+/* END - split-section */
+
+/* START - who we are section */
+.who-we-are {
+    background-color: var(--magenta);
+    color: #ffffff;
+}
+
+.who-we-are .big-text {
+    background: linear-gradient(to bottom, #ffffff 0%, rgba(255,0,0,0) 80%);
+    -webkit-background-clip: text;
+}
+
+.who-we-are p {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+/* END - who we are section */
+
+.roadmap-text-image {
+    width: 70% !important;
+}
+
+.roadmap-divider {
+    margin-top: 10%;
+}
+
+.rocket {
+    width: 40px !important;
+}
+
+.comm-url {
+    text-decoration: none;
+    color: #6B0DEE;
+}
+
+.comm-url:hover {
+    color: #5409be;
+}
+
+.sound {
+    width: 35px;
+    height: 35px;
+    right: 2%;
+    bottom: 6%;
+    position: absolute;
+    background-image: url(/assets/icons/volume-up.svg);
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.sound.mute {
+    background-image: url(/assets/icons/volume-mute.svg);
+}

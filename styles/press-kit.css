@@ -1,0 +1,32 @@
+@import "reset-style.css";
+@import "header.css";
+@import "footer.css";
+
+h3 {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6B0DEE;
+}
+
+.press-kit {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.about {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.press-kit-img img {
+    width: 100%;
+}

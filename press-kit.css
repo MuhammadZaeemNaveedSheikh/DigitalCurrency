@@ -1,0 +1,90 @@
+h3 {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6B0DEE;
+}
+
+.press-kit {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.about {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.press-kit-img img {
+    width: 100%;
+}
+h2.about-head{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 57px;
+    text-align: initial;
+}
+p.about-para{
+font-size: 22px;
+    line-height: 35px;
+    margin: 0;
+}
+a.nav-link.text-light.fs-6.text-orchid {
+    color: #dc50c7 !important;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+}
+.presentation-tab {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 9;
+    background-color: #710cfd;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.presentation-tab > span {
+    width: 25px;
+    padding: 0.6rem 0 0.15rem;
+    font-size: 0.8rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+.social-icon-bar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.icon-bar a .icon-text {
+    display: none;
+}
+
+.icon-bar:hover .icon-text {
+    position: relative;
+    display: block;
+    z-index: 99999999;
+}
+
+.social-icon-bar a:hover {
+    background-color: #2a2a2a;
+    color: var(--violet-color);
+}
+.icon-bar{
+    position: fixed !important;
+    top: 40% !important;
+}

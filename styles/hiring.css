@@ -1,0 +1,183 @@
+@import "reset-style.css";
+@import "header.css";
+@import "footer.css";
+
+/* START - careers quantopay */
+.careers-quantopay {
+    padding: 175px 85px;
+    background-image: url("/assets/careers-quantopay.png");
+    min-height: 100vh;
+    background-color: #232A6B;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.careers-quantopay .title {
+    font-size: 70px;
+    line-height: 85px;
+}
+
+.careers-quantopay p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+/* END - careers quantopay */
+
+/* START - who we are section */
+.who-we-are {
+    background-color: var(--magenta);
+    color: #ffffff
+}
+
+.who-we-are .big-text {
+    background: linear-gradient(to bottom, #ffffff 0%, rgba(255,0,0,0) 80%);
+    -webkit-background-clip: text;
+}
+/* END - who we are section */
+
+/* START - Benefits section */
+.benefits-section {
+    padding-bottom: 0;
+    margin-bottom: 170px;
+}
+
+.benefits-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefits-section .asterisk-note {
+    margin-top: 65px;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--primary);
+    opacity: 0.5;
+}
+
+.benefit {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefit p {
+    height: 100%;
+    align-items: flex-end;
+    display: flex;
+}
+
+.benefit img {
+    height: 100%;
+}
+
+.benefit .title{
+    height: 100%;
+    margin-top: 35px;
+}
+
+.benefit p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.benefit .left-border-bottom {
+    width: 20%;
+    border-bottom: 1px solid #707070;
+    margin-top: 32px;
+}
+/* END - Benefits section */
+
+/* START - Career section */
+.career-section {
+    padding: 105px 0 85px;
+    background-image: url("/assets/career-section.jpg");
+    min-height: 100vh;
+    background-color: var(--background-color);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px #ffffff40;
+}
+
+.dark .career-section {
+    box-shadow: inset 0 0 0 2000px #21252940;
+}
+
+.career-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.career-card {
+    width: 330px;
+    padding: 40px;
+    border: 1px solid #808080;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F1F1;
+    color: #212529;
+}
+
+.dark .career-card{
+    background-color: #212529;
+    color: #F1F1F1;
+}
+
+.career-card h3 {
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.career-card .card-details {
+    margin-bottom: 65px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.career-card .card-details p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.career-card .btn {
+    width: fit-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-section h4 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 57px;
+}
+/* END - Career section */
+
+@media (max-width: 768px) {
+    .vertical-align {
+        margin-top: initial;
+        transform: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item .text {
+        text-align: center;
+        left: initial;
+    }
+
+    .careers-quantopay {
+        padding: 0 30px;
+    }
+}

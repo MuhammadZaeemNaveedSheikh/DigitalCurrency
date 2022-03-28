@@ -1,0 +1,50 @@
+@import "reset-style.css";
+@import "header.css";
+@import "footer.css";
+
+h3 {
+    margin-top: 30px;
+}
+
+.early-access {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.subscribe-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 20px 30px;
+    border-radius: 16px;
+    border: none;
+    font-size: 14px;
+    width: 70%;
+    background-color: var(--gray);
+    color: var(--primary);
+}
+
+input::placeholder {
+    color: var(--primary);
+    opacity: 0.5;
+}
+
+.custom-alert {
+    position: absolute;
+    bottom: -20px
+}
+
+.subscribe-img img {
+    width: 100%;
+}

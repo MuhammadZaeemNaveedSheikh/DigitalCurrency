@@ -1,0 +1,157 @@
+@import "reset-style.css";
+@import "header.css";
+@import "footer.css";
+
+main .container p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px
+}
+
+ul {
+    margin-left: 40px;
+}
+
+.bold {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+a,
+a:hover {
+    color: var(--primary);
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.container h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--primary);
+    margin-top: 50px;
+}
+
+.container h5 {
+    margin-top: 20px;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+main section:first-child {
+    margin-bottom: initial;
+}
+
+#accordionExample,
+.accordion-item {
+    background-color: var(--background-color);
+    color: var(--primary);
+    border: 0;
+}
+
+.accordion a:hover {
+    color: #0a58ca;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+    background-color: var(--gray);
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+    background-image: url(/assets/icons/chevron-down-black.svg);
+}
+
+.dark .accordion-button:not(.collapsed)::after,
+.dark .accordion-button::after {
+    background-image: url(/assets/icons/chevron-down-white.svg);
+}
+
+.table {
+    margin-top: 10px;
+    color: var(--primary)
+}
+
+td {
+    border: 1px solid var(--primary);
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+}
+a.nav-link.text-light.fs-6.text-orchid {
+    color: #dc50c7 !important;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+}
+.presentation-tab {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 9;
+    background-color: #710cfd;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.presentation-tab > span {
+    width: 25px;
+    padding: 0.6rem 0 0.15rem;
+    font-size: 0.8rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+.social-icon-bar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.icon-bar a .icon-text {
+    display: none;
+}
+
+.icon-bar:hover .icon-text {
+    position: relative;
+    display: block;
+    z-index: 99999999;
+}
+
+.social-icon-bar a:hover {
+    background-color: #2a2a2a;
+    color: var(--violet-color);
+}
+.icon-bar{
+    position: fixed !important;
+    top: 40% !important;
+}

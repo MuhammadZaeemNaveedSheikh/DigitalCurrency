@@ -1,0 +1,14 @@
+@import "reset-style.css";
+@import "header.css";
+@import "footer.css";
+
+.coming-soon {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon h1 {
+    border-bottom: 1px solid;
+}

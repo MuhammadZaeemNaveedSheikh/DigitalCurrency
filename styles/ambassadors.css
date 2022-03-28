@@ -1,0 +1,81 @@
+@import "reset-style.css";
+@import "header.css";
+@import "footer.css";
+
+/* START - split-section */
+.split-section {
+    position: relative;
+}
+
+.split-section .container {
+    max-width: 100%;
+}
+
+.split-section .row > div {
+    height: 700px;
+}
+
+.split-section .text-wrapper {
+    padding: 30px 16%;
+}
+
+.split-section .main-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.split-section img {
+    width: 100%;
+}
+
+.split-section p {
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.split-section .btn {
+    margin-top: 40px;
+}
+
+.split-section .bk-img {
+    position: absolute;
+    left: -30%;
+    bottom: -160px;
+    z-index: -1;
+}
+
+.vertical-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs-container {
+    position: relative;
+}
+
+/* END - split-section */
+
+.ambassadors-divider {
+    height: 100px;
+    border-right: 1px solid #707070;
+}
+
+@media screen and (max-width: 768px) {
+    .split-section .main-img {
+        width: 100%;
+    }
+    .split-section .row > div {
+        height: fit-content;
+    }
+
+    .ambassadors-divider {
+        margin-top: 3%;
+    }
+
+    .split-section .text-wrapper {
+        padding: 30px 10%;
+    }
+}

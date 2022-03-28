@@ -1,0 +1,241 @@
+@import "reset-style.css";
+@import "header.css";
+@import "footer.css";
+
+.ambassadors-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+/* START - split-section */
+.split-section {
+    position: relative;
+}
+
+.split-section .container {
+    max-width: 100%;
+}
+
+.split-section .text-wrapper {
+    padding: 30px 20%;
+}
+
+.split-section .main-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.split-section img {
+    width: 100%;
+}
+
+.split-section p {
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.split-section .btn {
+    margin-top: 40px;
+}
+
+.split-section .bk-img {
+    position: absolute;
+    left: -30%;
+    bottom: -160px;
+    z-index: -1;
+}
+
+.vertical-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs-container {
+    position: relative;
+}
+
+
+
+.roadmap-line {
+    position: relative;
+    width: 1px;
+    height: 100%;
+    background-color: #707070;
+}
+
+.line-completed {
+    width: 5px;
+    height: 100%;
+    background-color: #6B0DEE;
+}
+
+.line-container{
+    display: flex;
+    justify-content: center;
+}
+
+.split-first-section{
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width:768px) {
+    .image-padding {
+        padding-top: 10%;
+        padding-bottom: 30%;
+    }
+
+    .split-first-section {
+        padding-bottom: 20%;
+    }
+}
+/* END - split-section */
+
+/* START - who we are section */
+.who-we-are {
+    background-color: var(--magenta);
+    color: #ffffff;
+}
+
+.who-we-are .big-text {
+    background: linear-gradient(to bottom, #ffffff 0%, rgba(255,0,0,0) 80%);
+    -webkit-background-clip: text;
+}
+
+.who-we-are p {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+/* END - who we are section */
+
+.roadmap-text-image {
+    width: 70% !important;
+}
+
+.roadmap-divider {
+    margin-top: 10%;
+}
+
+.rocket {
+    width: 40px !important;
+}
+
+.comm-url {
+    text-decoration: none;
+    color: #6B0DEE;
+}
+
+.comm-url:hover {
+    color: #5409be;
+}
+
+.sound {
+    width: 35px;
+    height: 35px;
+    right: 2%;
+    bottom: 6%;
+    position: absolute;
+    background-image: url(/Assets/volume-up.svg);
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.sound.mute {
+    background-image: url(/Assets/volume-mute.svg);
+}
+.general-header {
+    background-image: url(/Assets/header-background.png);
+    color: #ffffff;
+    background-size: cover;
+}
+.text-section {
+    padding: 110px 0 110px;
+}
+.text-center {
+    text-align: center!important;
+}
+.mainsection.newsection.mb-5::before {
+    content: "";
+    position: absolute;
+    bottom: -12rem;
+    transform: skewY(-5.5deg);
+    height: auto !important;
+    width: 100%;
+    background: #fff;
+}
+.mainsections::before {
+    content: "";
+    /* position: absolute; */
+    bottom: -12rem;
+    transform: skewY(-5.5deg);
+    height: 80%;
+    width: 100%;
+    background: #fff;
+}
+/* .mainsections {
+    background: rgb(9, 9, 121);
+    background: linear-gradient(
+135deg
+, rgba(9, 9, 121, 1) 0%, rgba(0, 103, 159, 1) 41%, rgba(198, 85, 184, 1) 71%, rgba(198, 85, 184, 1) 96%);
+} */
+p.roadmap {
+    font-size: 22px;
+    font-weight: 100;
+    color: #000000b5;
+}
+a.nav-link.text-light.fs-6.text-orchid {
+    color: #dc50c7 !important;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+}
+.presentation-tab {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 9;
+    background-color: #710cfd;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.presentation-tab > span {
+    width: 25px;
+    padding: 0.6rem 0 0.15rem;
+    font-size: 0.8rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+.social-icon-bar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.icon-bar a .icon-text {
+    display: none;
+}
+
+.icon-bar:hover .icon-text {
+    position: relative;
+    display: block;
+    z-index: 99999999;
+}
+
+.social-icon-bar a:hover {
+    background-color: #2a2a2a;
+    color: var(--violet-color);
+}
+.icon-bar{
+    position: fixed !important;
+    top: 40% !important;
+}

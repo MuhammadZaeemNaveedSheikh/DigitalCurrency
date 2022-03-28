@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Dstyle.css">
+    <link rel="stylesheet" href="styles.scss">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QuantoPay</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32X32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+          integrity="sha512-xnP2tOaCJnzp2d2IqKFcxuOiVCbuessxM6wuiolT9eeEJCyy0Vhcwa4zQvdrZNVqlqaxXhHqsSV1Ww7T2jSCUQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <!--    Load slick styles  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+          integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+          integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!--    Load custom styles  -->
+    <link rel="stylesheet" href="customStyles.css">
+    <link rel="stylesheet" href="contributors.css">
+
+</head>
+
+<body>
+
+
+
+<!-- <canvas id="id"></canvas> -->
+
+<main class="content">
+
+    <!-- Navbar  -->
+
+    <!-- <nav class="navbar sticky-top" style="position:fixed ; width: 100%; opacity: 1;">
+
+        <div class="container navbar navbar-expand-lg w-100">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light fs-6 " aria-current="page" href="#"> We Care</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-6" href="#"> Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-6" href="#"> Ambasador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-6" href="#"> Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-6" href="#"> Jobs</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand text-light m-0 p-0" href="#">
+                <img id="main-logo" src="./Assets/QP-Logo.png" alt="">
+            </a>
+
+        </div>
+    </nav> -->
+
+    <div class="mainsections newsection">
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container ">
+                <a class="navbar-brand text-light text-end m-0 p-0" href="index.html">
+                    <img id="main-logo" src="./Assets/QP-Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation" style="border: none;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fs-6 " aria-current="page" target="_self"
+                               href="/we-care.html"> We Care</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-6" target="_self" href="/roadmap.html"> Roadmap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-6" target="_blank" href="https://community.quantopay.com/">
+                                Community</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-6" target="_self" href="/ambassadors.html"> Ambassador</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-6" target="_self" href="/hiring.html"> Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-6 text-orchid" target="_self" href="/subscribe.html"> GET YOUR
+                                CARD</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="text-wrapper">
+                    <br>
+                    
+                    <h1 style="text-align: center;">Privacy and Cookie Policy</h1>
+
+                    <h2>INTRODUCTIONAL EXPLANATION</h2>
+                    <div>
+                        <p>QuantoPay s.r.o is a company registered in Czech Republic with company number 08907641,
+                            QuantoPay
+                            LTD is a limited liability company registered in England and Wales with company number
+                            09992090
+                            and QTP HOLDINGS LTD is a limited liability company registered in Gibraltar with company
+                            number
+                            117353 (jointly “QuantoPay”), having as business objectives to build and operate a
+                            technical
+                            platform that will facilitate and support financial services through a mobile
+                            application,
+                            dedicated to physical persons having an EEA residence and an UK residence.
+                        </p>
+                        <p>Within our Privacy Policy, we describe how we collect, use and otherwise handle any
+                            Personal
+                            Information that you provide or make available to us directly (through direct contact
+                            when
+                            you
+                            prospect or engage us to provide you services) or through our website or the website of
+                            any
+                            of
+                            our members (“Websites”) and explains the circumstances in which we may transfer this to
+                            others.
+                        </p>
+                        <p>If you have concerns about how we use your personal data, you can contact our Data
+                            Protection
+                            Officer at privacy@quantopay.com for EU users for UK users please contact
+                            privacy@quantopay.uk
+                        </p>
+                    </div>
+
+                    <br>
+                    <br>
+                    <h3>1. HOW, WHEN AND WHY DO WE COLLECT AND USE PERSONAL INFORMATION?</h3>
+                    <p class="bold">How we collect your personal information</p>
+                    <ul>
+                        <li>fill in any forms;</li>
+                        <li>correspond with us;</li>
+                        <li>register to use the Project app;</li>
+                        <li>open an account or use any of our services;</li>
+                        <li>take part in online discussions, surveys or promotions.</li>
+                        <li>speak with a member of our customer support team (either on the phone or through the
+                            Project
+                            app);</li>
+                        <li>enter a competition; or</li>
+                        <li>contact us for other reasons.</li>
+                    </ul>
+
+                    </br>
+                    <p class="bold">Personal Information that we collect. The types of information that we may
+                        collect
+                        from you
+                        (directly or indirectly) are the following:</p>
+                    <ul>
+                        <li>your name;</li>
+                        <li>your email address;</li>
+                        <li>your physical address;</li>
+                        <li>your IP address;</li>
+                        <li>any other information that you choose to provide to us when filling out a contact form
+                            on
+                            our Websites or contribute to our projects;</li>
+                        <li>your geographic location (country/territory where you are living and/or working);</li>
+                        <li>your bank account details (when the service provided require holding such information);
+                        </li>
+                        <li>your passport copy or any civil identification</li>
+                        <li>any other additional information we may be obliged to collect in order to comply</li>
+                        <li>with applicable AML and KYC laws, as follows:
+                            <ul>
+                                <li>date and place of birth (for an individual);</li>
+                                <li>nationality;</li>
+                                <li>gender;</li>
+                                <li>phone number;</li>
+                                <li>proof of a residential address (for an individual), or a principal place of</li>
+                                <li>business, local office, or other physical location (for a person other than
+                                    an individual); and</li>
+                                <li>proof of identification with a photograph (selfie with passport in hand)</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    </br>
+                    <p class="bold">How we use your Personal Information. We may use your Personal Information for
+                        our
+                        business
+                        purposes such as:</p>
+                    <ul>
+                        <li>to process and respond to inquiries and provide our services or support to your</li>
+                        <li>QuantoPay PROJECTs/contributions of our projects</li>
+                        <li>to manage our relationship with you</li>
+                        <li>to market our services or events</li>
+                        <li>to send notices, newsletters, publications</li>
+                        <li>record keeping, internal reporting and research purposes;</li>
+                        <li>to ensure network and information security;</li>
+                        <li>to notify you about changes to our services;</li>
+                        <li>send information to you regarding changes to our Terms and Conditions of</li>
+                        <li>Service, Privacy Policy (including the Cookie Policy), or other legal agreements;</li>
+                        <li>meet legal requirements;</li>
+                        <li>to investigate any complaint you make;</li>
+                        <li>to provide evidence in any dispute or anticipated dispute between you and us;</li>
+                        <li>to customise various aspects of our websites to improve your experience;</li>
+                        <li>to host, maintain and otherwise support the operation of our websites;</li>
+                        <li>for the detection and prevention of fraud and other criminal offences and for risk
+                            management purposes and compliance with AML and KYC laws and regulations;</li>
+                        <li>for business and disaster recovery (e.g. to create back-ups);</li>
+                        <li>for document retention/storage;</li>
+                        <li>for database management; or</li>
+                        <li>to ensure the quality of the services we provide to our users.</li>
+                    </ul>
+                    <p>In addition, we may use your Personal Information for further specific purposes made clear at
+                        the
+                        point of collection. If you choose not to provide Personal Information requested by us, we
+                        may
+                        not be able to provide you with the information and/or services you have requested or
+                        otherwise
+                        fulfil the purpose(s) for which we have asked for the Personal Information. If you wish not
+                        to
+                        receive any marketing materials, please contact us directly to marketing@quantopay.com.
+                    </p>
+
+                    </br>
+                    <p class="bold">Legal grounds for collection and use of Personal Information. We process your
+                        personal
+                        information where we need to do so:</p>
+                    <ul>
+                        <li>to comply with our legal and regulatory obligations;</li>
+                        <li>for our legitimate interests in:
+                            <ul>
+                                <li>responding to your queries;</li>
+                                <li>providing services and/or information to you;</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>We consider that the risk to your data protection rights in connection with Personal
+                        Information
+                        that we process on the basis of our legitimate interests is not excessive or overly
+                        intrusive.
+                        We have also put in place protections for your rights by ensuring proper retention periods
+                        and
+                        security controls.
+                    </p>
+
+
+                    <h3>2. HOW AND WHEN DO WE SHARE INFORMATION WITH THIRD PARTIES?</h3>
+                    <p>Some services that we provide require the involvement of third parties. We have carefully
+                        selected these third parties and taken steps to ensure that your Personal Information is
+                        adequately protected. Details about how we share Personal Information with third parties is
+                        set
+                        out below:</p>
+                    <p class="bold">Sharing within the QuantoPay group of companies. Your Personal Information are
+                        shared within the QuantoPay group of companies:</p>
+                    <ul>
+                        <li>if you ask that we should do so;</li>
+                        <li>where we need to do so in order to provide the services or information that you have
+                            requested.</li>
+                        <li>When a group member would like to use your Personal Information for a new</li>
+                        <li>purpose, he will let you know about this first.</li>
+                    </ul>
+                    <p class="bold">Sharing with other third parties. We share your Personal Information with:</p>
+                    <ul>
+                        <li>our accountants, auditors, lawyers or similar advisers when we ask them to provide us
+                            with
+                            professional advice, however, only after prior explicit consent from your side;</li>
+                        <li>aany other third party if we are under a duty to disclose or share your Personal
+                            Information
+                            in order to comply with any legal obligation, or to protect the rights, property and/or
+                            safety of the QuantoPay group of companies, our personnel or others; ora</li>
+                        <li>any other third party for the purposes of acting in accordance with the requirements of
+                            a
+                            court, regulator or government agency, for example, complying with a search warrant or
+                            court
+                            order or acting in accordance with an applicable law or regulation.</li>
+                    </ul>
+
+                    <h3>3. HOW LONG DO WE STORE PERSONAL INFORMATION? </h3>
+                    <p>It is our policy to retain your Personal Information for the length of time required for the
+                        specific purpose or purposes for which it was collected. However, we may be obliged to store
+                        some Personal Information for a longer time, taking into account factors including:</p>
+                    <ul>
+                        <li>legal obligation(s) under applicable law to retain data for a certain period of time;
+                        </li>
+                        <li>the statute of limitations under applicable law(s);</li>
+                        <li>(potential) disputes; and</li>
+                        <li>guidelines issued by relevant data protection authorities.</li>
+                    </ul>
+                    <p>Whilst we continue to process your Personal Information, we will ensure that it is treated in
+                        accordance with this Privacy Policy. Otherwise, we securely erase your information once this
+                        is
+                        no longer needed and we secure your right to be “forgotten” through our FORGOTTEN bottom and
+                        specific software, which ensures the best possible way that even links to third-party
+                        providers
+                        are deleted.</p>
+                    <p>Explicitly excluded, and by reading and confirming this Privacy Policy you understand
+                        respective
+                        implications, are the blockchain related specifications as well related to your very
+                        personal
+                        blockchain related information, to which, however, we do not have direct or indirect access,
+                        but
+                        only you. We, herein, would only like to inform you that within your very personal created
+                        blockchain there may be information saved, which may not
+                        be erased or deleted at all.
+                    </p>
+
+
+                    <h3>4. WHAT ARE YOUR RIGHTS ?</h3>
+                    <p>You have the right to</p>
+                    <p class="bold">Reviewing, Correcting and Removing Your Personal Information. You have the
+                        following
+                        data protection rights:</p>
+                    <ul>
+                        <li>You can request access, correction, updates or deletion of your personal information;
+                        </li>
+                        <li>You can object to processing of your personal information, ask us to restrict processing
+                            of
+                            your personal information or request portability of your personal information;</li>
+                        <li>If we have collected and process your personal information with your consent, then you
+                            can
+                            withdraw your consent at any time. Withdrawing your consent will not affect the
+                            lawfulness
+                            of any processing we conducted prior to your withdrawal, nor will it affect processing
+                            of
+                            your personal information conducted in reliance on lawful processing grounds other than
+                            consent; or</li>
+                        <li>You have the right to complain to a data protection authority about our collection and
+                            use
+                            of your personal information. Contact details for data protection authorities in the
+                            EEA,
+                            Switzerland and certain non-European countries (including the US and Canada) are
+                            available
+                            here.</li>
+                    </ul>
+                    <p>To exercise any of these rights, please contact our Data Protection Officer We will respond
+                        to
+                        your request to change, correct, or delete your information within a reasonable timeframe
+                        and
+                        notify you of the action we have taken.</p>
+                    <p class="bold">Anti-Spam Policy</p>
+                    <p>Our Acceptable Use Policy applies to us and to our contributors and, among other things,
+                        prohibits use of the QuantoPay PROJECT Service to send unsolicited commercial email in
+                        violation
+                        of applicable laws, and requires the inclusion in every email sent using the QuantoPay
+                        PROJECT
+                        Service of an "opt-out" mechanism and other required information. We require all of our
+                        contributors to agree to adhere to the Acceptable Use Policy at all times, and any
+                        violations of
+                        the Acceptable Use Policy by a contributor can result in immediate suspension or termination
+                        of
+                        the QuantoPay PROJECT Service.</p>
+                    <p class="bold"></p>
+                    <p>You may unsubscribe from our marketing communications by clicking on the "unsubscribe" link
+                        located on the bottom of our e-mails, updating your communication preferences, or by sending
+                        us
+                        email our Data protection Officer.</p>
+                    <p>Contributors cannot opt out of receiving transactional emails related to their account with
+                        us or
+                        the QuantoPay PROJECT Service.</p>
+                    <p class="bold"></p>
+                    <p>Our Partners are solely responsible for their own marketing emails and other communications;
+                        we
+                        cannot unsubscribe you from their communications. You can unsubscribe from our Partners’
+                        marketing communications by clicking on the "unsubscribe" link located on the bottom of
+                        their
+                        emails, or by contacting them directly.</p>
+
+
+                    <h3>5. DO WE USE COOKIES ?</h3>
+                    <p>QuantoPay and its partners use cookies or similar technologies (such as web beacons) to
+                        analyse
+                        trends, administer the website, track users’ movements around the website, and to gather
+                        demographic information about our user base as a whole. To find out more about how we use
+                        cookies on our Websites and how to manage your cookie preferences please see our Cookie
+                        Policy
+                        below</p>
+
+
+                    <h3>6. HOW DO WE PROTECT YOU?</h3>
+                    <p>We have implemented reasonable administrative, technical and physical measures to protect
+                        your
+                        personal information against loss, misuse and alteration.</p>
+
+
+
+                    <h3>7. HOW DO WE PROTECT YOUR CONFIDENTIALITY?</h3>
+                    <p>We acknowledge that the information you provide may be confidential. We do not sell, rent,
+                        distribute or otherwise make Personal Information commercially available to any third party,
+                        except that we may share information with our service providers for the purposes set out in
+                        this
+                        Privacy Policy. We will maintain the confidentiality of and protect your information in
+                        accordance with our Privacy Policy and all applicable laws.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="text-wrapper">
+
+                    <h2>SPECIFIC FURTHER EXPLANATION</h2>
+
+                    <h3>1. HOW OUR CONTRIBUTORS USE THE QuantoPay PROJECT SERVICE?</h3>
+                    <p>Our online QuantoPay PROJECT Service allows any individual and company that uses it (our
+                        contributors) to use its overall service content. The QuantoPay PROJECT Service user adds
+                        its
+                        information, which will be stored and managed on our service providers' servers. This
+                        information is then used to contact contributors about their contribution and to provide own
+                        marketing, lead generation, and contributor service needs.</p>
+                    <p>We may transfer Personal Information to companies that help us provide our service. Transfers
+                        to
+                        subsequent third parties are covered by the service agreements with our contributors.</p>
+
+
+                    <h3>2. WHAT INFORMATION WE COLLECT?</h3>
+                    <p class="bold">When You Visit our Websites</p>
+                    <p>You are free to explore the Websites without providing any Personal Information about
+                        yourself.
+                        When you visit the Websites or register for the QuantoPay PROJECT Service, we request that
+                        you
+                        provide Personal Information about yourself, and we collect Navigational Information.</p>
+
+                    <p class="bold">When You Use our Mobile Application</p>
+                    <p>We use mobile analytics software to allow us to better understand the functionality of our
+                        Mobile
+                        Apps on your mobile device. This software may record information such as how often you use
+                        the
+                        application, the events that occur within the application, aggregated usage, performance
+                        data,
+                        and where the application was downloaded from. In addition to information we collect on our
+                        Websites, when you use our Mobile Apps we may also collect your city location, device model
+                        and
+                        version, device identifier (or “UDID”), OS version, and your QuantoPay PROJECT Service
+                        credentials.</p>
+                    <p>We send push notifications from time to time in order to update you about events or
+                        promotions.
+                        If you no longer wish to receive such communications, you may turn them off at the device
+                        level.
+                        We may link information we store within the analytics software to Personal Information you
+                        submit within the Mobile App. We do this to improve services we offer you and improve our
+                        marketing, analytics and site functionality. "Personal Information" this refers to any
+                        information that you voluntarily submit to us and that identifies you personally, including
+                        contact information, such as your name, e-mail address, company name, address, phone number,
+                        and
+                        other information about yourself or your business. Personal Information can also include
+                        information about any transactions, both free and paid, that you enter into on the Websites,
+                        and
+                        information about you that is available on the internet, such as from Facebook, LinkedIn,
+                        Twitter and Google, or publicly available information that we acquire from service
+                        providers.
+                        Personal Information also includes Navigational Information or Payment Information where
+                        such
+                        information can directly or indirectly identify an individual. Navigational information
+                        refers
+                        to information about your computer and your visits to this website such as your IP address,
+                        geographical location, browser type, referral source, length of visit and pages viewed.</p>
+                    <p>Please see the "Navigation Information" section below. Payment information includes We
+                        collect
+                        and process payment information from you when you subscribe to the QuantoPay PROJECT
+                        Service,
+                        including credit cards numbers and billing information, using third-party PCI-compliant
+                        service
+                        providers. Except for this, we do not collect Sensitive Information from you.</p>
+
+                    <p class="bold">Log Files</p>
+                    <p>When you use our services our view content provided by us, we automatically collect
+                        information
+                        about your computer hardware and software. This information can include your IP address,
+                        browser
+                        type, domain names, internet service provider (ISP), the files viewed on our site (e.g.,
+                        HTML
+                        pages, graphics, etc.), operating system, clickstream data, access times and referring
+                        website
+                        addresses. This information is used by us for the. operation of the QuantoPay PROJECT
+                        Service,
+                        to maintain the quality of the. QuantoPay PROJECT Service, and to provide general statistics
+                        regarding use of our Websites. For these purposes, we do link this automatically collected
+                        data
+                        to Personal. Information such as name, email address, address, and phone number.</p>
+
+                    <p class="bold">Information we collect from third parties</p>
+                    <p>From time to time, we may receive Personal Information about you from third party sources
+                        including partners with which we offer co-branded services or engage in joint. marketing
+                        activities, and publicly available sources such as social media websites.</p>
+
+                    <p class="bold">Information About Children</p>
+                    <p>The Websites are not intended for or targeted at children under 16, and we do not knowingly
+                        or
+                        intentionally collect information about children under 16. If you believe that we have
+                        collected
+                        information about a child under 16, please contact us at privacy@qunatopay.com, so that we
+                        may
+                        delete the information.</p>
+
+
+                    <h3>3. HOW WE USE THE INFORMATION WE COLLECT?</h3>
+                    <p class="bold"></p>
+                    <p>We use the information we collect only in compliance with this Privacy Policy. Contributors
+                        who
+                        subscribe to our QuantoPay PROJECT Services are obligated through our agreements with them
+                        to
+                        comply with this Privacy Policy.</p>
+
+                    <p class="bold"></p>
+                    <p>We will never sell or otherwise passing on your Personal Information to any third party.</p>
+
+                    <p class="bold"></p>
+                    <p>In addition to the uses identified elsewhere in this Privacy Policy, we may use your Personal
+                        Information to:</p>
+                    <ul>
+                        <li>improve your browsing experience by personalizing the Websites and to improve the
+                            QuantoPay
+                            PROJECT Service;</li>
+                        <li>send information to you which we think may be of interest to you by post, email, or
+                            other
+                            means and send you marketing communications relating to our business;</li>
+                        <li>promote use of our services to you and share promotional and information content with
+                            you in
+                            accordance with your communication preferences;</li>
+                        <li>provide other companies with statistical information about our users, but this
+                            information
+                            will not be used to identify any individual user;</li>
+                        <li>send information to you regarding changes to our Customer Terms of Service, Privacy
+                            Policy
+                            (including the Cookie Policy), or other legal agreements</li>
+                        <li>meet legal requirements. We may, from time to time, contact you on behalf of external
+                            business partners about a particular service that may be of interest to you. In those
+                            cases,
+                            we do not transfer your Personal Information to the third party. In addition to above
+                            mentioned, we use the information collected through our QuantoPay PROJECT Service by our
+                            contributors for the following purposes:</li>
+                        <li>to provide the QuantoPay PROJECT Service (which may include the detection, prevention
+                            and
+                            resolution of security and technical issues);</li>
+                        <li>to respond to contributor support requests; and</li>
+                        <li>otherwise to fulfil the obligations under the Terms of Service.</li>
+                    </ul>
+
+                    <p class="bold">Legal basis for processing Personal Information (“UK” and “EEA” visitors only)
+                    </p>
+                    <p>If you are a visitor/contributor located in the United Kingdom ("UK"), you can complain to
+                        the
+                        ICO if you are unhappy with how we have used your data.</p>
+                    <p>The ICO’s address: Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow,
+                        Cheshire, SK9 5AF, Helpline number: 0303 123 1113</p>
+
+                    <p>If you are a visitor/contributor located in the European Economic Area (EEA), you can
+                        complain to
+                        the European Data Protection Supervisor (“EDPS”). If you think that we don’t protect
+                        properly
+                        your personal data</p>
+                    <p>The EDPS address: European Data Protection Supervisor, Rue Wiertz 60, B-1047 Brussels,
+                        Belgium,
+                        E-mail: edps@edps.europa.eu</p>
+
+                    <p>Our legal basis for collecting and using the personal information described above will depend
+                        on
+                        the personal information concerned and the specific context in which we collect it. However,
+                        we
+                        will normally collect personal information from you only where we have your consent to do
+                        so,
+                        where we need the personal information to perform a contract with you, or where the
+                        processing
+                        is in our legitimate interests and not overridden by your data protection interests or
+                        fundamental rights and freedoms. In some cases, we may also have a legal obligation to
+                        collect
+                        personal information from you.</p>
+                    <p>If we ask you to provide personal information to comply with a legal requirement or to
+                        perform a
+                        contract with you, we will make this clear at the relevant time and advise you whether the
+                        provision of your personal information is mandatory or not (as well as of the possible
+                        consequences if you do not provide your personal information). Similarly, if we collect and
+                        use
+                        your personal information in reliance on our legitimate interests (or those of any third
+                        party),
+                        we will make clear to you at the relevant time what those legitimate interests are.</p>
+
+                    <p class="bold">Use of Navigational Information</p>
+                    <p>We use Navigational Information to operate and improve the Websites and the. QuantoPay
+                        PROJECT
+                        Service. We may also use Navigational Information alone or in combination with Personal
+                        Information to provide you with personalized information about our project or related
+                        services.
+                    </p>
+
+                    <p class="bold">Customer Testimonials and Comments</p>
+                    <p>We may post contributor testimonials and comments on our Websites, which may contain Personal
+                        Information. We obtain each contributor's consent via email prior to posting the
+                        contributor's
+                        name and testimonial.</p>
+
+                    <p class="bold">Use of Credit Card Informatio</p>
+                    <p>If you give us credit card information, we use it solely to check your financial
+                        qualifications
+                        and collect payment from you. We use a third-party service provider to manage credit card
+                        processing. This service provider is not permitted to store, retain, or use information you
+                        provide except for the sole purpose of credit card processing on our behalf.</p>
+
+                    <p class="bold">Security of your Personal Information</p>
+                    <p>We use a variety of security technologies and procedures to help protect your Personal
+                        Information from unauthorized access, use or disclosure. We secure the Personal Information
+                        you
+                        provide on computer servers in a controlled, secure environment, protected from unauthorized
+                        access, use or disclosure. All Personal Information is protected using appropriate physical,
+                        technical and organizational measures.</p>
+
+                    <p class="bold">Social Media Features</p>
+                    <p>Our Websites include Social Media Features, such as the Facebook Like button and Widgets,
+                        such as
+                        the Share This button or interactive mini-programs that run on our sites. These features may
+                        collect your IP address, which page you are visiting on our sites, and may set a cookie to
+                        enable the feature to function properly. Social Media Features and Widgets are either hosted
+                        by
+                        a third party or hosted directly on our Websites. This Privacy Policy does not apply to
+                        these
+                        features. Your interactions with these features are governed by the privacy policy and other
+                        policies of the companies providing them.</p>
+
+                    <p class="bold">External Websites</p>
+                    <p>Our Websites provide links to other websites. We do not control, and are not responsible for,
+                        the
+                        content or practices of these other websites. Our provision of such links does not
+                        constitute
+                        our endorsement of these other websites, their content, their owners, or their practices.
+                        This
+                        Privacy Policy does not apply to these other websites, which are subject to any privacy and
+                        other policies they may have.</p>
+
+                    <p class="bold">Public Forums</p>
+                    <p>We offer publicly accessible message boards, blogs, and community forums. Please
+                        keep in mind that if you directly disclose any information through our public message
+                        boards, blogs, or forums, this information may be collected and used by others. We will
+                        correct or delete any information you have posted on the Websites if you so request, as
+                        described in "Opting Out and Unsubscribing" below.
+                    </p>
+
+                    <p class="bold">Retention of Personal Information</p>
+                    <p>How long we keep information we collect about you depends on the type of. information. as
+                        described in further detail below. After such time, we will either delete or anonymize your
+                        information or, if this is not possible, then we will securely store your information and
+                        isolate it from any further use until deletion is possible. We retain Personal Information
+                        that
+                        you provide to us where we have an ongoing legitimate business need to do so (for example,
+                        as
+                        long as is required in order to contact you about the QuantoPay PROJECT Service or our other
+                        services, or as needed to comply with our legal obligations, resolve disputes and enforce
+                        our
+                        agreements). When we have no ongoing legitimate business need to process your Personal
+                        Information, we securely delete the information or anonymise it or, if this is not.
+                        possible,
+                        then we will securely store your Personal Information and isolate it from any. further
+                        processing until deletion is possible. We will delete this information from the servers at
+                        an
+                        earlier date if you so request, as described in "To Unsubscribe from Our Communications"
+                        below.
+                        If you provide information to our cooperation partners as part of their use of the.
+                        QuantoPay
+                        PROJECT Service, our cooperation partners decide how long to retain the. personal
+                        information
+                        they collect from you. If a cooperation partner terminates its. service for the QuantoPay
+                        PROJECT, then we will provide contributor with access to all information stored for the
+                        cooperation partner by us, including any Personal Information provided by you, for export by
+                        the
+                        cooperation partner according to our agreement with our partners. After termination, we may,
+                        unless legally prohibited, delete all cooperation partner information, including your
+                        Personal
+                        Information, from. the QuantoPay PROJECT. If you have elected to receive marketing
+                        communications from us, we retain information about your marketing preferences for a
+                        reasonable
+                        period of time from the date you last expressed interest in our content, products, or
+                        services,
+                        such as when you last opened an email from us or ceased using your QuantoPay PROJECT
+                        account. We
+                        retain information derived from cookies and other tracking technologies for a reasonable
+                        period
+                        of time from the date such information was created.</p>
+
+
+                    <h3>4. HOW WE SHARE INFORMATION WE COLLECT?</h3>
+                    <p class="bold">Service Providers</p>
+                    <p>We employ other companies and people to provide services to visitors to our Websites, our
+                        contributors, and users of the QuantoPay PROJECT Service and may need to share your
+                        information
+                        with them to provide information, products or services to you. Examples may include removing
+                        repetitive information from prospect lists, analysing data or performing statistical
+                        analysis,
+                        providing marketing assistance, processing credit card payments, supplementing the
+                        information
+                        you provide us in order to provide you with better service, and providing contributor
+                        service or
+                        support. In all cases where we share your information with such agents, we explicitly
+                        require
+                        the agent to acknowledge and adhere to our privacy and contributor data handling policies.
+                    </p>
+
+                    <p class="bold">Cooperation Partners</p>
+                    <p>In addition, we may share data with trusted partners to contact you based on your. request to
+                        receive such communications, help us perform statistical analysis, or provide partners’
+                        support.
+                        Such third parties are prohibited from using your Personal Information except for these
+                        purposes, and they are required to maintain the confidentiality of your information. We
+                        partner
+                        with trusted third parties to provide you with co-marketing content that we think may be
+                        relevant to you. When you engage with these co-marketing partners, we will tell you who we
+                        are
+                        sharing data with and provide a link to the co-marketing partner’s privacy policy so you can
+                        learn more about how to opt-out of the partner’s communications. These co-marketing partners
+                        are
+                        required to adhere to our privacy and data protection policies.</p>
+
+                    <p class="bold">Corporate Events</p>
+                    <p>If we (or our assets) are acquired by another company, whether by merger, acquisition,
+                        bankruptcy
+                        or otherwise, that company would receive all information gathered by us on the Websites and
+                        the
+                        QuantoPay PROJECT Service. In this event, you will be notified via email and/or a prominent
+                        notice on our website, of any change in ownership, uses. of your Personal Information, and
+                        choices you may have regarding your Personal Information.</p>
+
+                    <p class="bold">Compelled Disclosure</p>
+                    <p>We reserve the right to use or disclose your Personal Information if required by law or if we
+                        reasonably believe that use or disclosure is necessary to protect our rights, protect your
+                        safety or the safety of others, investigate fraud, or comply with a law, court order, or
+                        legal
+                        process.</p>
+
+
+                    <h3>5. HOW WE SHARE YOUR PERSONAL INFORMATION INTERNATIONALY?</h3>
+                    <p class="bold">International Transfers within QuantoPay’s Entities</p>
+                    <p>To facilitate our global operations, we transfer information to our other globally located
+                        entities and allow access to that information from countries in which the QuantoPay
+                        affiliated
+                        entities have operations for the purposes described in this policy. This Privacy Policy
+                        shall
+                        apply even if we transfer Personal Information to other countries. We have taken appropriate
+                        safeguards to require that your Personal Information will remain protected. When we share
+                        information about you within and among QuantoPay’s affiliated entities, we make use of
+                        standard
+                        contractual data protection clauses, which have been approved by the European Commission and
+                        by
+                        the Information Commissioner Office, and we eventually may have to rely on the EU-U.S., UK
+                        US
+                        and Swiss-U.S. Privacy Shield Framework to safeguard the transfer of information we collect
+                        from
+                        the European Economic Area and Switzerland to the U.S.. Please see our Privacy Shield notice
+                        below for more information.</p>
+
+                    <p class="bold">International transfers to third parties</p>
+                    <p>Some of the third parties described in this privacy policy, which provide services to us
+                        under
+                        contract, are based in other countries that may not have equivalent privacy and data
+                        protection
+                        laws to the country in which you reside. When we share information of contributors in the
+                        European Economic Area, or Switzerland, we, if applicable, may make use of the EU-U.S. and
+                        Swiss-U.S. Privacy Shield Frameworks, European Commission approved standard contractual data
+                        protection clauses, binding corporate rules for transfers to data processors, or other
+                        appropriate legal mechanisms to safeguard the transfer. Please see our Privacy Shield Notice
+                        below.</p>
+
+                    <p class="bold">Privacy Shield Notice</p>
+                    <p>If and once so required we are going to be in compliance with the EU-U.S. Privacy Shield
+                        Framework and the Swiss–U.S. Privacy Shield Framework and contributors would be informed
+                        which
+                        affiliated entities adhere to the Privacy Shield principles. To learn more about the Privacy
+                        Shield Framework, visit the U.S. Department of Commerce’s Privacy Shield List at <a
+                            href="https://www.privacyshield.gov." target="_blank">https://www.privacyshield.gov.</a>
+                    </p>
+                    <p>You may direct any inquiries or complaints related to our Privacy Shield compliance to
+                        privacy@quantopay.com. If you eventually should have an unresolved privacy or data use
+                        concern
+                        that we have not addressed satisfactorily, you may contact our U.S.-based third party
+                        dispute
+                        resolution provider (free of charge) at <a
+                            href="https://feedbackform.truste.com/watchdog/request"
+                            target="_blank">https://feedbackform.truste.com/watchdog/request</a>. Under certain
+                        conditions, more fully described on the Privacy Shield website, you may be entitled to
+                        invoke
+                        binding arbitration when other dispute resolution procedures have been exhausted.</p>
+
+                    <p class="bold">UK transfers to third countries</p>
+                    <p>Since Brexit, UK is not part of the EU-US privacy Shield framework anymore it has been
+                        decided on
+                        November 2020 with the Schrems II law to use the Standards Contractual Clauses validated by
+                        the
+                        ICO. We may use them for data transfers from UK to US and from UK to EU.</p>
+
+
+
+                    <h3>6. HOW WE USE COOKIES AND SIMILAR TECHNOLOGIES?</h3>
+                    <p class="bold">Cookies</p>
+                    <p>QuantoPay and its partners use cookies or similar technologies (such as web beacons) to
+                        analyse
+                        trends, administer the website, track users’ movements around the website, and to gather
+                        demographic information about our user base as a whole. To find out more about how we use
+                        cookies on our Websites and how to manage your cookie preferences please see our Cookie
+                        Policy.
+                    </p>
+
+                    <p class="bold">Cookies Policy:</p>
+                    <p>Our websites use cookies to better the user experience while visiting the website. Where
+                        applicable, these websites use a cookie control system allowing the user on their first
+                        visit to
+                        the website to allow or disallow the use of cookies on their computer/device. This complies
+                        with
+                        recent legislation requirements for websites to obtain explicit consent from users before
+                        leaving behind or reading files, such as. cookies on a user’s computer/device. The cookies
+                        in
+                        use to deliver Google Analytics service are described in the table below.</p>
+                    <p>Cookie Title Description:</p>
+                    <ul>
+                        <li>__utma</li>
+                        <li>__utmb</li>
+                        <li>__utmc</li>
+                        <li>__utmv</li>
+                        <li>__utmz</li>
+                        <li>GoogleAnalytics</li>
+                    </ul>
+                    <p>These cookies are used to store information, such as what time your current visit occurred,
+                        whether you have been to the site before, and what site referred you to the web page. These
+                        cookies contain no personally identifiable information but they will use your computer’s IP
+                        address to know from where in the world you are accessing the Internet. Google stores the
+                        information collected by these cookies on servers in the United States. Google may transfer
+                        this
+                        information to third-parties where required to do so by law, or. where such third-parties
+                        process the information on Google’s behalf.</p>
+
+                    <p class="bold">Protecting Your Rights</p>
+                    <p>We have developed the following tools in order to protect your rights:</p>
+                    <p><span class="bold">Opting Out:</span> In order to provide website visitors with more choice
+                        as to
+                        how data is collected by Google Analytics, Google has developed the Google Analytics Opt-out
+                        Browser Addon. The add-on communicates with the Google Analytics JavaScript (ga.js) to stop
+                        data
+                        being sent to Google Analytics. The Google Analytics Opt-out Browser Add-on does not affect
+                        usage of the website in any other way. A link to further information on the Google Analytics
+                        Opt-out Browser Add-on is provided below for your convenience.
+                        <a href="http://tools.google.com/dlpage/gaoptout?hl=None"
+                            target="_blank">http://tools.google.com/dlpage/gaoptout?hl=None</a>
+                        For more information on the usage of cookies by Google Analytics, please see the Google
+                        website.
+                        A link to the privacy advice for this product is provided below for your convenience.
+                        <a href="http://www.google.com/analytics/learn/privacy.html"
+                            target="_blank">http://www.google.com/analytics/learn/privacy.html</a>
+                    </p>
+                    <p><span class="bold">Disabling Cookies:</span> If you would like to restrict the use of
+                        cookies,
+                        you
+                        can control this in your Internet. browser. Links to advice on how to do this for the most
+                        popular Internet browsers are provided below for convenience and will be available for the
+                        Internet browser of your choice, either online or via the software help (normally available
+                        via
+                        key F1).</p>
+
+                    <ul>
+                        <li>Internet Explorer: <a
+                                href="http://windows.microsoft.com/en-GB/windows7/Block-enable-orallow-cookies"
+                                target="_blank">http://windows.microsoft.com/en-GB/windows7/Block-enable-orallow-cookies</a>
+                        </li>
+                        <li>GoogleChrome: <a
+                                href="https://support.google.com/chrome/bin/answer.py?hl=enGB&answer=95647&p=cpn_cookies"
+                                target="_blank">https://support.google.com/chrome/bin/answer.py?hl=enGB&answer=95647&p=cpn_cookies</a>
+                        </li>
+                        <li>Mozilla Firefox: <a href="http://support.mozilla.org/en-US/kb/Blocking%20cookies"
+                                target="_blank">http://support.mozilla.org/en-US/kb/Blocking%20cookies</a></li>
+                        <li>Apple Safari: <a href="http://docs.info.apple.com/article.html?artnum=32467"
+                                target="_blank">http://docs.info.apple.com/article.html?artnum=32467</a></li>
+                    </ul>
+
+
+                    <p class="bold">Navigational Information Collected by Our Partners</p>
+                    <p>Our Partners can use the tools we provide, as well as tools provided by third parties, to
+                        collect
+                        Navigational Information when you visit their webpages as part or related to the QuantoPay
+                        PROJECT Service. However, we do not control our partners’ use of these tools, nor do we
+                        control
+                        the information they collect or how they use it.</p>
+
+                    <p class="bold">Single Sign-On</p>
+                    <p>You can log in to our site using a Single Sign-on (SSO) service like your Google account.
+                        This
+                        service will authenticate your identity and provide you the option to share certain personal
+                        information with us such as your name and email address to pre-populate our. sign up form.
+                        Such
+                        services may give you the option to post information about your activities on this Web site
+                        to
+                        your profile page to share with others within your network.</p>
+
+                    <p class="bold">Flash Cookies and Other Third Party Tracking Technologies</p>
+                    <p>The Adobe Flash Player (and similar applications) use technology to remember settings,
+                        preferences and usage similar to browser cookies but these are managed through a different
+                        interface than the one provided by your Web browser. This technology creates locally stored
+                        objects that are often referred to as "Flash cookies." QuantoPay does not use Flash cookies.
+                        However, our Partners may create pages on a QuantoPay PROJECT related platform that employ
+                        Adobe
+                        Flash cookies. For more information on "Flash cookies" and how you can manage them please
+                        visit
+                        our Cookie Policy.</p>
+
+                    <p class="bold">Advertising</p>
+                    <p>We partner with a third party ad network to either display advertising on our Web site or to
+                        manage our advertising on other sites. Our ad network partner uses cookies and Web beacons
+                        to
+                        collect information about your activities on this and other Web sites to provide you
+                        targeted
+                        advertising based upon your interests. If you wish to not have this. information used for
+                        the
+                        purpose of serving you targeted ads, you may opt-out by clicking on the provided link or
+                        email.
+                        (or if located in the European Union, by clicking here: <a
+                            href="http://www.youronlinechoices.eu/"
+                            target="_blank">http://www.youronlinechoices.eu/</a>).
+                        Please note this does not opt you out of being served to advertise. You will continue to
+                        receive
+                        generic ads.</p>
+
+                    <p class="bold">Third Party Tracking Technologies</p>
+                    <p>The use of cookies and web beacons by any tracking utility company is not covered by our
+                        Privacy
+                        Policy or Cookie Policy.</p>
+
+
+                    <h3>7. HOW WILL WE KEEP YOU UPDATED IN CASE OF ANY CHANGES TO THE PRIVACY NOTICE?</h3>
+                    <p>We keep our privacy notice under regular review and we will place any updates on our webpage.
+                        We
+                        will provide you with a new privacy notice if we make any material updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+       
+</main>
+<div class="eight eighthSection text-light">
+
+    <footer class="py-3">
+        <div class="container">
+            <div class="row align-items-center mb-3">
+                <div class="col-sm-6 col-xl-2 footer-logo">
+                    <a href="/" type="text/html">
+                        <img src="./assets/QPL.png" alt="logo" width="200px">
+                    </a>
+
+                </div>
+                <div class="col-sm-6 col-xl-4 social-media-links desktop-size">
+                    <a href="https://www.facebook.com/quantopayglobal"><i class="bi bi-facebook m-2"></i></a>
+                    <a href="https://twitter.com/Quantopay"><i class="bi bi-twitter m-2"></i></a>
+                    <a href="https://t.me/quantopay"><i class="bi bi-telegram m-2"></i></a>
+                    <a href="https://www.linkedin.com/company/quantopay/"><i class="bi bi-linkedin m-2"></i></a>
+                    <a href="https://www.youtube.com/channel/UCKrXXsK0HLhNYsoB4XHCZdw"><i
+                            class="bi bi-youtube m-2"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="partners-reference col-xs-12">
+                    <p>The QuantoPay Account and Card are issued by Contis Financial Services Ltd who are authorised 
+                        by the Financial Conduct Authority under the Electronic Money Regulations 2011 (registered number 900025) 
+                        and UAB „Finansinės paslaugos „Contis“ who are authorised by the Bank of Lithuania under the electronic
+                        money institution license No. 53. The QuantoPay Account and Card are electronic money products which are 
+                        not covered by the Financial Services Compensation Scheme or the Deposit Insurance System of the Republic of Lithuania. 
+                        The funds will be safeguarded by Contis Financial Services Ltd or UAB „Finansinės paslaugos „Contis“.</p>
+                                            <br />
+                                            <p> Through the CONTIS | SOLARISBANK cooperation QuantoPay is directly e-money licensed in the UK and 30  European countries, while our QuantoPay VISA cards have global functionality and usage from the
+                                                beginning.</p>
+                </div>
+            </div>
+            <div class="row footer-details">
+                <div class="col-sm-6 col-xl-2">
+                    <div class="contact-us">
+                        <p>
+                            Contact us <i class="bi bi-arrow-right ms-2"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-4">
+                    <address class="address">
+                        <p><b>UK Address:</b> 122 Leadenhall Street, London, England EC3V 4AB, GB</p>
+                        <p><b>UK Phone:</b> + 44 203 753 5560</p>
+                        <p><b>Romania Address:</b> The Stables, Office ED04, 20A Onisifor Ghibu St, Cluj-Napoca
+                        </p>
+                        <p><b>Czech Republic Address:</b> Školská 689/20, Nové Město, 110 00 Prague 1</p>
+                        <p><b>US Address:</b> 207 Cascadas Ct, San Ramon, CA 94583, USA</p>
+                        <p><b>US Phone:</b> +1-714-856-4447</p>
+                        <p><b>Email:</b><a href="mailto:info@quantopay.com"> info@quantopay.com</a></p>
+                    </address>
+                </div>
+                <div class="col-sm-4 col-xl-2">
+                    <div class="site-map">
+                        <a href="https://community.quantopay.com" target="_blank">Community</a>
+                        <a href="/hiring.html" target="_self">Jobs</a>
+                        <a href="/subscribe.html" target="_self">Get Your Card</a>
+                        <a href="https://quantocoin.io/#News" target="_blank">News</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xl-2">
+                    <div class="site-map">
+                        <a href="/roadmap.html" target="_self">Roadmap</a>
+                        <a href="/presentations.html" target="_self">Presentations</a>
+                        <a href="/privacy-policy.html" target="_self">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xl-2">
+                    <div class="site-map">
+                        <a href="/ambassadors.html" target="_self">Ambassadors</a>
+                        <a href="/press-kit.html" target="_self">Press Kit</a>
+                        <a href="/we-care.html" target="_self">WE CARE</a>
+                        <a href="https://quantocoin.io/" target="_blank"><img src="/assets/Quantocoin-logoR.png"
+                                alt="quanto pay logo" width="175px" height="17px"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer-details">
+                <div class="col-xs-12">
+                    <div class="disclaimer border-top border-bottom">
+                        <p><b>Disclaimer:</b> The presentation is intended for educational purposes only and do
+                            not
+                            replace
+                            independent
+                            professional judgment. Statements of fact and opinions expressed are those of the
+                            providers
+                            individually, unless expressly stated to the contrary. We take no responsibility or
+                            liability
+                            for
+                            the
+                            content, accuracy or completeness of the information presented. The information
+                            contained
+                            and
+                            the
+                            resources available are not intended as and shall not be understood or construed as
+                            financial
+                            advice.
+                            Regardless anything to the contrary, nothing available on or through this
+                            presentation
+                            should be
+                            understood as professional financial advice. We expressly recommend that you seek
+                            advice
+                            from a
+                            professional to address your particular concerns. In case of investment, you may
+                            sustain a
+                            total
+                            loss of
+                            your investment and you should not invest unless you fully understand the nature of
+                            the
+                            business
+                            and
+                            the
+                            extent of your exposure to loss. If you do not fully understand, we encourage you to
+                            seek
+                            independent
+                            professional financial advice.</p>
+                    </div>
+                    <div class="copyrights">
+                        <p>© Copyrights 2016 - <span class="current-year">2022</span>, All Rights Reserved.</p>
+                        <div class="ltd">
+                            <p>Quantopay LTD is a limited liability company registered in England and
+                                Wales(registration
+                                No.09992090).</p>
+                            <p>QuantoPay S.R.O, ID no. 089 07 641, registered with the Municipal Court Prague,
+                                Section
+                                C,
+                                File
+                                327369</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--            <div class="imagebox5 align-self-center ">-->
+    <!--                <div id="imagebox5">-->
+    <!--                    <img class="img-fluid " src="./svg assets/phone card.svg" alt="" style="height: 500px;">-->
+    <!--                </div>-->
+
+    <!--            </div>-->
+</div>
+
+
+<!-- side icons pops  -->
+<div class="icon-bar d-none d-md-block">
+    <a href="https://www.facebook.com/quantopayglobal" class="facebook">
+        <div class="icon-text">Facebook</div>
+        <div><i class="bi bi-facebook p-2"></i></div>
+    </a>
+    <a href="https://www.youtube.com/channel/UCKrXXsK0HLhNYsoB4XHCZdw" class="google">
+        <div class="icon-text">Youtube</div>
+        <div><i class="bi bi-youtube p-2"></i></div>
+    </a>
+    <a href="https://t.me/quantopay" class="linkedin">
+        <div class="icon-text">Telegram</div>
+        <div><i class="bi bi-telegram p-2"></i></div>
+    </a>
+    <a href="https://twitter.com/Quantopay" class="youtube">
+        <div class="icon-text">Twitter</div>
+        <div><i class="bi bi-twitter p-2"></i></div>
+    </a>
+    <a href="https://www.linkedin.com/company/quantopay" class="twitter">
+        <div class="icon-text">LinkedIn</div>
+        <div><i class="bi bi-linkedin p-2"></i></div>
+    </a>
+</div>
+<!-- <div class="flag-bar d-none d-md-block">
+    <a href="#" class="facebook">
+        <div class="flag1 flag"></div>
+    </a>
+    <a href="#" class="facebook">
+        <div class="flag2 flag"></div>
+    </a>
+    <a href="#" class="facebook">
+        <div class="flag3 flag"></div>
+    </a>
+    <a href="#" class="facebook">
+        <div class="flag4 flag"></div>
+    </a>
+    <a href="#" class="facebook">
+        <div class="flag5 flag"></div>
+    </a>
+</div> -->
+<!-- side icon ends here  -->
+<a href="/presentations.html" target="_self"
+   class="d-none d-md-block presentation-tab text-decoration-none text-white">
+    <span class="text-uppercase">Presentations</span>
+</a>
+
+<!-- Modal -->
+<div class="modal fade" id="addressModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen-xl-down modal-lg">
+        <div class="modal-content text-light" style="background-color:#6402B0;">
+            <button type="button" class="btn-close  btn-close-white" data-bs-dismiss="modal" aria-label="Close"
+                    style="color: #E9E9E9; opacity: 1;"></button>
+
+            <div class="topcard w-100 text-center " style="background-color:#6402B0; height: 250px; padding: 25px;">
+                <h2>US Office</h2>
+                <p><i class="bi bi-geo-alt-fill"></i>207 Cascadas Ct, San Ramon, CA 94583, USA</p>
+                <p><i class="bi bi-telephone-fill"></i>+1-714-856-4447</p>
+                <p><i class="bi bi-envelope"></i>info@quantopay.com</p>
+            </div>
+            <div class="h-50 w-100 d-flex ">
+                <div class="rightCard col-6 w-50 text-center "
+                     style="background-color: #00214B; height: 250px; padding: 25px;">
+                    <h2>UK Office</h2>
+                    <p><i class="bi bi-geo-alt-fill"></i>122 Leadenhall Street, London, England EC3V 4AB, GB</p>
+                    <p><i class="bi bi-telephone-fill"></i>+ 44 203 753 5560</p>
+                    <p><i class="bi bi-envelope"></i>info@quantopay.com</p>
+                </div>
+                <div class="leftCard col-6 w-50 text-center "
+                     style="background-color: #d2429e; height: 250px; padding: 25px;">
+                    <h2>Czech Republic</h2>
+                    <p><i class="bi bi-geo-alt-fill"></i>Skolska 689/20, Nove Mesto, 110 00 Prague 1</p>
+                    <p><i class="bi bi-telephone-fill"></i>+ 44 203 753 5560</p>
+                    <p><i class="bi bi-envelope"></i>info@quantopay.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- subscribe modal  -->
+
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered w-50">
+        <div class="modal-content text-light d-flex flex-row modal-body h-50 "
+             style="background-color:#6402B0; vertical-align: middle;  background-image: url(./Assets/cardicon.png); background-position:left; background-repeat:no-repeat; background-size: contain;">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"
+                    style="color: #E9E9E9; opacity: 1;"></button>
+
+
+            <div class="rightCard col-4 justify-content-center">
+
+                <img src="./Assets/Pop-Mobile.png" alt="cardlogo" width="30%" style="position: absolute; top: -20%;">
+
+            </div>
+
+            <div class="leftCard col-8 d-flex flex-column align-items-center">
+
+                <h2>Get Access to the First <span style="color: #d2429e;">Global Digital Blockchain Bank</span></h2>
+                <p>Get Early Access, News & Updates delivered straight to your inbox</p>
+                <input type="text" title="Email" placeholder="Email" class="mt-3"
+                       style="width: 100%; height:40px; padding-left: 5px; background-color: #340179; border-radius:8px ; border: none;">
+                <button class="digBtn mt-3 btn text-light  "> Subscribe</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // scroll to change navbar background color
+ document.addEventListener("DOMContentLoaded", function () {
+     window.addEventListener('scroll', function () {
+         if (window.scrollY > 50) {
+             document.getElementById('navbar_top').classList.add('fixed-top');
+             // add padding top to show content behind navbar
+             navbar_height = document.querySelector('.navbar').offsetHeight;
+             document.body.style.paddingTop = navbar_height + 'px';
+         } else {
+             document.getElementById('navbar_top').classList.remove('fixed-top');
+             // remove padding top from body
+             document.body.style.paddingTop = '0';
+         }
+     });
+ }); 
+ </script>
+</body>
+	<!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+	<script  src="submain.js"></script>
+</html>
+

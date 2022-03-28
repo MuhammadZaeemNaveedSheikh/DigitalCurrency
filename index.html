@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quanto Pay</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32X32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <!--    bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--    bootstrap-icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!--    google-fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap" rel="stylesheet">
+
+    <!--   slick styles  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+          integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+          integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!--    custom-styles-->
+    <link rel="stylesheet" href="./css/custom-styles.css">
+</head>
+<body>
+
+<div class="qp-loader-container d-flex align-items-center justify-content-center">
+    <div class="qp-loader"></div>
+</div>
+
+<div class="wrapper">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark quanto-pay-navbar">
+        <div class="container ">
+            <a class="navbar-brand text-light text-end m-0 p-0" href="#">
+                <img class="img-fluid" src="./assets/QP-Logo.png" alt="">
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light fs-6 " aria-current="page" target="_self"
+                           href="/we-care.html"> We Care</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-6" target="_self" href="/roadmap.html"> Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-6" target="_blank" href="https://community.quantopay.com/">
+                            Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-6" target="_self" href="/ambassadors.html"> Ambassador</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-6" target="_self" href="/hiring.html"> Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-6 text-orchid" target="_self" href="/subscribe.html"> GET YOUR
+                            CARD</a>
+                    </li>
+                </ul>
+            </div>
+            
+
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section">
+            <div class="container position-relative">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="section-description-container">
+                            <h1 class="section-description-header text-white large pb-5">
+                                The World's 1st Global <br><span class="text-orchid">Digital and Blockchain Bank</span>
+                            </h1>
+
+                            <div class="hero-description text-center pb-5">
+                                <h4 class="fw-bold">Mobile <span class="text-violet">Only</span> Bank</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="./assets/heroimage.png" alt="quantopay mobile app" class="hero-image">
+                    </div>
+                </div>
+                <div class="circle-pointer">
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <div class="container position-relative">
+                <div class="row align-items-center">
+                    <div class="ms-auto col-lg-6">
+                        <div class="section-description-container">
+                            <h1 class="section-description-header">The <span class="text-violet">Revolutionary</span>
+                                <br>
+                                Digital Banking Platform
+                            </h1>
+
+                            <p class="section-description">
+                                <strong>QuantoPay</strong> provides fintech solutions for everyone, giving users the
+                                freedom to spend,
+                                earn, save, & <strong>transfer money</strong> through their smartphones.
+                            </p>
+
+                            <a href="/subscribe.html" class="btn btn-lg btn-primary btn-custom mt-3">
+                                Get Your Card <i class="bi bi-arrow-right-circle-fill ps-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="circle-pointer d-none d-md-flex">
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-3">
+            <div class="container position-relative">
+                <div class="row align-items-center justify-content-center text-center">
+                    <div class="col-12">
+                        <div class="section-description-container mw-100">
+                            <h1 class="section-description-header text-white text-center my-5">
+                                Discover the <br>
+                                <span class="text-violet"> Benefits of QuantoPay</span> <br>
+                                Money Done Differently
+                            </h1>
+                        </div>
+                        <div class="row side-icons">
+                            <div class="col d-flex flex-column justify-content-between">
+                                <div class="side-icon-1">
+                                    <img src="./assets/icons/Online Payments.png"
+                                         class="blockchain-icon"
+                                         alt="">
+                                </div>
+                                <div class="side-icon-2">
+                                    <img src="./assets/icons/Multiple Accounts.png"
+                                         class="blockchain-icon"
+                                         alt="">
+                                </div>
+                                <div class="side-icon-3">
+                                    <img src="./assets/icons/Cash Back.png" class="blockchain-icon"
+                                         alt="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="thirdcardimage">
+
+                                </div>
+                            </div>
+                            <div class="col d-flex flex-column justify-content-between">
+                                <div class="side-icon-4">
+                                    <img src="./assets/icons/icon1.png"
+                                         class="blockchain-icon" alt="">
+                                </div>
+                                <div class="side-icon-5">
+                                    <img src="./assets/icons/Multiple Cards.png" class="blockchain-icon"
+                                         alt="">
+
+                                </div>
+                                <div class="side-icon-6">
+                                    <img src="./assets/icons/NFT Secured.png" class="blockchain-icon"
+                                         alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/roadmap.html" class="btn btn-lg btn-primary btn-custom mt-3">
+                            Learn More <i class="bi bi-arrow-right-circle-fill ps-1"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="circle-pointer d-none d-md-flex">
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-4">
+            <div class="container position-relative">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <div class="section-description-container">
+                            <h1 class="section-description-header text-violet">
+                                Digital and <br> Virtual Cards
+                            </h1>
+                            <p class="section-description">
+                                <strong>Accepted worldwide</strong> at more than <strong>2.5 million ATMs,</strong>
+                                QuantoPay VISA cards have <strong>no hidden transaction fees.</strong>
+                            </p>
+                            <p class="section-description mt-4">
+                                Spend smarter and safer <strong>online and offline</strong>
+                            </p>
+                            <div class="text-center">
+                                <button class="btn btn-lg btn-primary btn-custom mt-3" data-bs-toggle="modal"
+                                        data-bs-target="#contact-modal">
+                                    Get you card now <i class="bi bi-arrow-right-circle-fill ps-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <img src="./assets/shadow.png" alt="" class="shadow-img d-none d-md-block">
+                        <video width="100%" height="300" autoplay loop playsinline muted
+                               class="d-block d-md-none world-pricing-video">
+                            <source src="./assets/fin globe.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                    </div>
+                </div>
+                <div class="circle-pointer d-none d-md-flex">
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-5">
+            <div class="container position-relative">
+                <div class="row align-content-center justify-content-center">
+                    <div class="col-12">
+                        <div class="pos-machine-holder d-flex justify-content-center align-content-center">
+                            <div class="revolving-prices">
+                                <div class="dot dot1">
+                                    <div class="price-circle">
+                                        <p>$3.78</p>
+                                    </div>
+                                    <div class="price-info">
+                                        <span>contributed to</span><br/>
+                                        <span class="credits"> + Maritime Protection </span>
+                                    </div>
+                                </div>
+
+                                <div class="dot dot2">
+                                    <div class="price-circle">
+                                        <p>$7.98</p>
+                                    </div>
+                                    <div class="price-info">
+                                        <span>contributed to</span><br/>
+                                        <span class="credits"> + Coral Protection </span>
+                                    </div>
+                                </div>
+
+                                <div class="dot dot3">
+                                    <div class="price-circle">
+                                        <p>$11.52</p>
+                                    </div>
+                                    <div class="price-info">
+                                        <span>contributed to</span><br/>
+                                        <span class="credits"> + Sustainability Education Protection </span>
+                                    </div>
+                                </div>
+
+
+                                <div class="dot dot4">
+                                    <div class="price-circle">
+                                        <p>$3.78</p>
+                                    </div>
+                                    <div class="price-info">
+                                        <span>contributed to</span><br/>
+                                        <span class="credits"> + Young Football Talent Support</span>
+                                    </div>
+                                </div>
+
+                                <div class="dot dot5">
+                                    <div class="price-circle">
+                                        <p>$7.98</p>
+                                    </div>
+                                    <div class="price-info">
+                                        <span>contributed to</span><br/>
+                                        <span class="credits"> + Dog Shelter</span>
+                                    </div>
+                                </div>
+
+                                <div class="dot dot6">
+                                    <div class="price-circle">
+                                        <p>$11.52</p>
+                                    </div>
+                                    <div class="price-info">
+                                        <span>contributed to</span><br/>
+                                        <span class="credits"> + Forest Protection</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <picture>
+                                <source media="(max-width:767px)" srcset="./Assets/POS-Payment-Terminal.G15.png">
+                                <img class="img-fluid" src="./assets/POS Payment Terminal.G15.2k.png" alt="">
+                            </picture>
+
+
+                        </div>
+                        <div class="section-description-container we-care">
+                            <h3 class="section-description-header">We.<span class="text-violet">Care</span></h3>
+                            <p class="section-description">
+                                We have a fully transparent system. Your contribution towards the project of your choice
+                                is immediate- whether is <strong>maritime, animal & deforestation protection, sports and
+                                education support or art!</strong>
+                            </p>
+                            <div class="text-center">
+                                <a href="/we-care.html" class="btn btn-lg btn-primary btn-custom mt-3">
+                                    Learn More <i class="bi bi-arrow-right-circle-fill ps-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mx-3 partner-company-logos-container my-4">
+                    <div class="partner-company-logos">
+                        <div class="item">
+                            <img src="/Assets/BINANCE.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="/Assets/C.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/chrono.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/CONTIS.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/fidinam.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="/Assets/FORTECH.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="/Assets/MENA-LEGAL.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/onfido.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/PKF.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/RHEINMETALL.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/TIMEX.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/Untitled-2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/VISA-QP.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/ZFP.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/Bit-Sentinentel.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./Assets/VISA-QP.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="circle-pointer">
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-6">
+            <div class="container position-relative">
+                <div class="row h-100 align-items-center text-light align-items-center">
+                    <div class="col-md-6">
+                        <div class="section-description-container large">
+                            <h4 class="section-description-header mt-5 mt-sm-0">
+                                Get Your <span class="text-violet">Ambassador </span><br/> Card Today</h4>
+
+                            <p class="section-description">
+                                As a token of love and appreciation to our Ambassadors, football heroes <strong>Roberto
+                                Carlos</strong> (Real Madrid), <strong>Michel Salgado</strong> (Real Madrid), and
+                                <strong>Patrick Kluivert</strong>(FC Barcelona), and their huge fan community, we
+                                will soon be releasing <strong>special limited edition QuantoPay VISA cards</strong>
+                                with personalized images of our Ambassadors.
+                            </p>
+                            <div style="padding-left:25%;">
+                                <a href="/ambassadors.html" class="btn btn-lg btn-primary btn-custom mt-3">
+                                    Apply Now <i class="bi bi-arrow-right-circle-fill ps-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="circle-pointer">
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-7">
+            <div class="container position-relative">
+                <div class="row h-100 align-items-center justify-content-between">
+                    <div class="col-md-6 position-relative">
+                        <div class="align-self-center">
+                            <div class="payment-history">
+                                <img class="img-fluid" src="./assets/Mobile Screen-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-pill">
+                            <div class="card shadow rounded-pill border-0">
+                                <div class="card-body p-2 d-flex flex-row align-items-center">
+                                    <img class="card-img rounded-circle wrapImg float-start " src="/assets/1.jpg">
+                                    <div class="wrap px-1">
+                                        <small class="card-text mb-0">Send Money</small>
+                                        <h5 class="card-title fs-6 fw-bold mb-0 text-violet">Daddy</h5>
+                                    </div>
+                                    <p class="fs-6 mb-0 text-danger ms-auto me-2">-€300</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-pill">
+                            <div class="card shadow rounded-pill border-0">
+                                <div class="card-body p-2 d-flex flex-row align-items-center">
+                                    <img class="card-img rounded-circle wrapImg float-start" src="/assets/2.jpg">
+                                    <div class="wrap px-1">
+                                        <small class="card-text mb-0">Received Money</small>
+                                        <h5 class="card-title fs-6 fw-bold mb-0 text-violet">Jenny</h5>
+                                    </div>
+                                    <p class="fs-7 mb-0 text-success ms-auto me-2">+€150</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-pill">
+                            <div class="card shadow rounded-pill border-0">
+                                <div class="card-body p-2 d-flex flex-row align-items-center">
+                                    <img class="card-img rounded-circle wrapImg float-start" src="/assets/3jpg.jpg">
+                                    <div class="wrap px-1">
+                                        <small class="card-text mb-0">Received Money</small>
+                                        <h5 class="card-title fs-6 fw-bold mb-0 text-violet">Mark</h5>
+                                    </div>
+                                    <p class="fs-7 mb-0 text-success ms-auto me-2">+€150</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col section-description-container large">
+                            <h1 class="section-description-header pt-3">
+                                A <span class="text-violet">Better Way</span> to Send <br> Money
+                            </h1>
+
+                            <p class="section-description">
+                                As a revolutionary blockchain platform, Quantopay allows you to transfer money fast &
+                                securely, with no hidden charges. Quantopay plays a significant role in outbound
+                                payments, especially for people who have no access to banking facilities.
+                            </p>
+                            <div class="text-center">
+                                <button class="btn btn-lg btn-primary btn-custom mt-3" data-bs-toggle="modal"
+                                        data-bs-target="#contact-modal">
+                                    Join the digital revolution <i class="bi bi-arrow-right-circle-fill ps-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-8  mt-4 mt-md-0">
+            <div class="container position-relative">
+                <div class="row h-100 align-items-center align-items-center">
+                    <div class="col-md-6">
+                        <div class="section-description-container large">
+                            <h4 class="section-description-header">
+                                Track Multiple Accounts in
+                                <span class="text-violet"> Real Time</span>,
+                                <br>
+                                Easy to Understand
+                            </h4>
+
+                            <p class="section-description">
+                                Quantopay allows you to create and manage an <strong>IBAN account</strong> for a
+                                <strong>family member, friend</strong> or anyone you care about. You can also get
+                                notifications and <strong>track all their expenses in real time</strong>, on a
+                                user-friendly interface.
+                            </p>
+                            <div style="padding-left: 15%;">
+                                <a href="/subscribe.html" class="btn btn-lg btn-primary btn-custom mt-3">
+                                    Get Your Card <i class="bi bi-arrow-right-circle-fill ps-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 position-relative">
+
+                        <div class="card-outer mt-4 mt-md-0">
+                            <div class="card-wrapper">
+                                <div class="card-bgc-container">
+                                    <div class="card-bgc">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-9">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="card rounded-5 shadow mx-n3 mb-4 mb-md-0">
+                        <div class="row border-2 text-light align-items-center justify-content-center">
+                            <div class="text-center col-md-6">
+                                <div class="mobile-holder">
+                                    <img src="./assets/Welcome-Screen.png" alt="QuantopayApp">
+                                </div>
+                            </div>
+
+                            <div class="innerboxright text-start col-md-6">
+                                <h4> Get Access To <span class="text-orchid">the First </span></h4>
+                                <h1 class="text-violet">Global Digital Blockchain Bank</h1>
+                                <p>
+                                    With QuantoPay the future is here, vote your favorite features and subscribe to our
+                                    newsletter. We will take care of the news!
+                                </p>
+
+                                <div class="me-0 me-md-5 mt-4 mb-3 mb-md-0">
+                                    <div class="input-group">
+                                        <input placeholder="Email" type="email" class="form-control bg-transparent"
+                                               aria-label="Email">
+                                        <button class="btn btn-primary btn-lg btn-custom">Get Access Now</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-3 text-light">
+        <div class="container">
+            <div class="row align-items-center mb-3">
+                <div class="col-sm-6 col-xl-2 footer-logo">
+                    <a href="/" type="text/html">
+                        <img src="./assets/QPL.png" alt="logo" width="200px">
+                    </a>
+
+                </div>
+                <div class="col-sm-6 col-xl-4 social-media-links desktop-size">
+                    <a href="https://www.facebook.com/quantopayglobal"><i class="bi bi-facebook m-2"></i></a>
+                    <a href="https://twitter.com/Quantopay"><i class="bi bi-twitter m-2"></i></a>
+                    <a href="https://t.me/quantopay"><i class="bi bi-telegram m-2"></i></a>
+                    <a href="https://www.linkedin.com/company/quantopay/"><i class="bi bi-linkedin m-2"></i></a>
+                    <a href="https://www.youtube.com/channel/UCKrXXsK0HLhNYsoB4XHCZdw"><i
+                            class="bi bi-youtube m-2"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="partners-reference col-xs-12">
+                    <p>The QuantoPay Account and Card are issued by Contis Financial Services Ltd who are authorised 
+                        by the Financial Conduct Authority under the Electronic Money Regulations 2011 (registered number 900025) 
+                        and UAB „Finansinės paslaugos „Contis“ who are authorised by the Bank of Lithuania under the electronic
+                        money institution license No. 53. The QuantoPay Account and Card are electronic money products which are 
+                        not covered by the Financial Services Compensation Scheme or the Deposit Insurance System of the Republic of Lithuania. 
+                        The funds will be safeguarded by Contis Financial Services Ltd or UAB „Finansinės paslaugos „Contis“.</p>
+                                            <br />
+                                            <p> Through the CONTIS | SOLARISBANK cooperation QuantoPay is directly e-money licensed in the UK and 30  European countries, while our QuantoPay VISA cards have global functionality and usage from the
+                                                beginning.</p>
+                </div>
+            </div>
+            <div class="row footer-details">
+                <div class="col-sm-6 col-xl-2">
+                    <div class="contact-us">
+                        <p>
+                            Contact us <i class="bi bi-arrow-right ms-2"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-4">
+                    <address class="address">
+                        <p><b>UK Address:</b> 122 Leadenhall Street, London, England EC3V 4AB, GB</p>
+                        <p><b>UK Phone:</b> + 44 203 753 5560</p>
+                        <p><b>Romania Address:</b> The Stables, Office ED04, 20A Onisifor Ghibu St, Cluj-Napoca
+                        </p>
+                        <p><b>Czech Republic Address:</b> Školská 689/20, Nové Město, 110 00 Prague 1</p>
+                        <p><b>US Address:</b> 207 Cascadas Ct, San Ramon, CA 94583, USA</p>
+                        <p><b>US Phone:</b> +1-714-856-4447</p>
+                        <p><b>Email:</b><a href="mailto:info@quantopay.com"> info@quantopay.com</a></p>
+                    </address>
+                </div>
+                <div class="col-sm-4 col-xl-2">
+                    <div class="site-map">
+                        <a href="https://community.quantopay.com" target="_blank">Community</a>
+                        <a href="/hiring.html" target="_self">Jobs</a>
+                        <a href="/subscribe.html" target="_self">Get Your Card</a>
+                        <a href="https://quantocoin.io/#News" target="_blank">News</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xl-2">
+                    <div class="site-map">
+                        <a href="/roadmap.html" target="_self">Roadmap</a>
+                        <a href="/presentations.html" target="_self">Presentations</a>
+                        <a href="/privacy-policy.html" target="_self">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xl-2">
+                    <div class="site-map">
+                        <a href="/ambassadors.html" target="_self">Ambassadors</a>
+                        <a href="/press-kit.html" target="_self">Press Kit</a>
+                        <a href="/we-care.html" target="_self">WE CARE</a>
+                        <a href="https://quantocoin.io/" target="_blank"><img src="/assets/Quantocoin-logoR.png"
+                                alt="quanto pay logo" width="175px" height="17px"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer-details">
+                <div class="col-xs-12">
+                    <div class="disclaimer border-top border-bottom">
+                        <p><b>Disclaimer:</b> The presentation is intended for educational purposes only and do
+                            not
+                            replace
+                            independent
+                            professional judgment. Statements of fact and opinions expressed are those of the
+                            providers
+                            individually, unless expressly stated to the contrary. We take no responsibility or
+                            liability
+                            for
+                            the
+                            content, accuracy or completeness of the information presented. The information
+                            contained
+                            and
+                            the
+                            resources available are not intended as and shall not be understood or construed as
+                            financial
+                            advice.
+                            Regardless anything to the contrary, nothing available on or through this
+                            presentation
+                            should be
+                            understood as professional financial advice. We expressly recommend that you seek
+                            advice
+                            from a
+                            professional to address your particular concerns. In case of investment, you may
+                            sustain a
+                            total
+                            loss of
+                            your investment and you should not invest unless you fully understand the nature of
+                            the
+                            business
+                            and
+                            the
+                            extent of your exposure to loss. If you do not fully understand, we encourage you to
+                            seek
+                            independent
+                            professional financial advice.</p>
+                    </div>
+                    <div class="copyrights">
+                        <p>© Copyrights 2016 - <span class="current-year">2022</span>, All Rights Reserved.</p>
+                        <div class="ltd">
+                            <p>Quantopay LTD is a limited liability company registered in England and
+                                Wales(registration
+                                No.09992090).</p>
+                            <p>QuantoPay S.R.O, ID no. 089 07 641, registered with the Municipal Court Prague,
+                                Section
+                                C,
+                                File
+                                327369</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<!--social-icons-bar-->
+<div class="social-icon-bar d-none d-md-block">
+    <a href="https://www.facebook.com/quantopayglobal" class="facebook">
+        <div class="icon-text">Facebook</div>
+        <div><i class="bi bi-facebook p-2"></i></div>
+    </a>
+    <a href="https://www.youtube.com/channel/UCKrXXsK0HLhNYsoB4XHCZdw" class="google">
+        <div class="icon-text">Youtube</div>
+        <div><i class="bi bi-youtube p-2"></i></div>
+    </a>
+    <a href="https://t.me/quantopay" class="linkedin">
+        <div class="icon-text">Telegram</div>
+        <div><i class="bi bi-telegram p-2"></i></div>
+    </a>
+    <a href="https://twitter.com/Quantopay" class="youtube">
+        <div class="icon-text">Twitter</div>
+        <div><i class="bi bi-twitter p-2"></i></div>
+    </a>
+    <a href="https://www.linkedin.com/company/quantopay" class="twitter">
+        <div class="icon-text">LinkedIn</div>
+        <div><i class="bi bi-linkedin p-2"></i></div>
+    </a>
+</div>
+
+<!--flags-bar-->
+<!--<div class="flags-bar d-none d-md-block">-->
+<!--    <a href="#">-->
+<!--        <div class="flag1 flag"></div>-->
+<!--    </a>-->
+<!--    <a href="#">-->
+<!--        <div class="flag2 flag"></div>-->
+<!--    </a>-->
+<!--    <a href="#">-->
+<!--        <div class="flag3 flag"></div>-->
+<!--    </a>-->
+<!--    <a href="#">-->
+<!--        <div class="flag4 flag"></div>-->
+<!--    </a>-->
+<!--    <a href="#">-->
+<!--        <div class="flag5 flag"></div>-->
+<!--    </a>-->
+<!--</div>-->
+
+<!--Presentations-->
+<a href="/presentations.html" target="_self"
+   class="d-none d-md-block presentation-tab text-decoration-none text-white">
+    <span class="text-uppercase">Presentations</span>
+</a>
+
+
+<div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-light modal-body h-50 ">
+            <button type="button" class="btn-close text-white opacity-100" data-bs-dismiss="modal" aria-label="Close">
+                <i class="bi bi-x-lg text-white"></i>
+            </button>
+            <div class="row">
+                <div class="col-4 justify-content-center">
+                    <img src="./assets/Pop-Mobile.png" alt="mobile" class="contact-modal-img">
+                </div>
+                <div class="col-8">
+                    <div class="d-flex flex-column align-items-center">
+                        <h2>Get Access to the First <span class="text-orchid">Global Digital Blockchain Bank</span></h2>
+                        <p>Get Early Access, News & Updates delivered straight to your inbox</p>
+                        <input type="email" title="Email" placeholder="Email" class="form-control mt-3 border-0"
+                               style="background-color: #340179;">
+                        <button class="btn btn-lg btn-primary btn-custom mt-3"> Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+<script src="js/common.js"></script>
+<!--<script src="js/quanto-pay-animation.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+        integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./js/threejs/examples/js/loaders/GLTFLoader.js"></script>
+<script src="./js/threejs/examples/js/renderers/CSS3DRenderer.js"></script>
+
+<script src="js/quanto-pay-animation.js"></script>
+<script src="js/quanto-pay-animation-main.js" type="module"></script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+@import "reset-style.css";
+@import "header.css";
+@import "footer.css";
+
+h3 {
+    margin-top: 30px;
+}
+
+aside h3 {
+    margin-top: 15px;
+}
+
+.job-description p {
+    margin-top: 20px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0px;
+}
+
+.job-description {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 20px 30px;
+    border-radius: 16px;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    background-color: var(--gray);
+    color: var(--primary);
+}
+
+input[type="file"] {
+    padding: 10px;
+}
+
+input::placeholder {
+    color: var(--primary);
+    opacity: 0.5;
+}
+
+.custom-alert {
+    margin-top: 20px
+}
+
+@media (min-width: 992px) {
+    .job-description {
+        margin-top: 200px;
+    }
+}

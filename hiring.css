@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* START - careers quantopay */
+.careers-quantopay {
+    padding: 175px 85px;
+    background-image: url("/Assets/careers-quantopay.png");
+    min-height: 100vh;
+    background-color: #232A6B;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.careers-quantopay .title {
+    font-size: 60px;
+    line-height: 85px;
+    font-weight: 300 !important;
+    color: white !important;
+}
+
+.careers-quantopay p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+/* END - careers quantopay */
+
+/* START - who we are section */
+.who-we-are {
+    background-color: #37077a;
+    color: #ffffff
+}
+
+.who-we-are .big-text {
+    background: linear-gradient(to bottom, #ffffff 0%, rgba(255,0,0,0) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+/* END - who we are section */
+
+/* START - Benefits section */
+.benefits-section {
+    padding-bottom: 0;
+    margin-bottom: 170px;
+}
+
+.benefits-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefits-section .asterisk-note {
+    margin-top: 65px;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--primary);
+    opacity: 0.5;
+    text-align: justify;
+}
+
+.benefit {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.benefit p {
+    height: 100%;
+    align-items: flex-end;
+    display: flex;
+}
+
+.benefit img {
+    height: 100%;
+}
+
+.benefit .title{
+    height: 100%;
+    margin-top: 35px;
+    text-align: initial;
+}
+
+.benefit p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.benefit .left-border-bottom {
+    width: 20%;
+    border-bottom: 1px solid #707070;
+    margin-top: 32px;
+}
+/* END - Benefits section */
+
+/* START - Career section */
+.career-section {
+    padding: 105px 0 85px;
+    background-image: url("/Assets/career-section.jpg");
+    min-height: 100vh;
+    background-color: var(--background-color);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px #ffffff40;
+}
+
+.dark .career-section {
+    box-shadow: inset 0 0 0 2000px #21252940;
+}
+
+.career-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.career-card {
+    width: 330px;
+    padding: 40px;
+    border: 1px solid #808080;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F1F1;
+    color: #212529;
+}
+
+.dark .career-card{
+    background-color: #212529;
+    color: #F1F1F1;
+}
+
+.career-card h3 {
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.career-card .card-details {
+    margin-bottom: 65px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.career-card .card-details p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.career-card .btn {
+    width: fit-content;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
+    margin: 0 auto;
+}
+
+.text-section h4 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 57px;
+}
+/* END - Career section */
+
+@media (max-width: 768px) {
+    .vertical-align {
+        margin-top: initial;
+        transform: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item .text {
+        text-align: center;
+        left: initial;
+    }
+
+    .careers-quantopay {
+        padding: 0 30px;
+    }
+}
+/* .mainsections {
+    background: rgb(9, 9, 121);
+    background: linear-gradient(
+135deg
+, rgba(9, 9, 121, 1) 0%, rgba(0, 103, 159, 1) 41%, rgba(198, 85, 184, 1) 71%, rgba(198, 85, 184, 1) 96%);
+} */
+
+.text-section {
+    padding: 110px 0 110px;
+}
+.text-center {
+    text-align: center!important;
+}
+.btn, .btn:hover, .btn:focus {
+    padding: 10px 25px;
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom, #8743FF, #4437F2);
+    color: #ffffff;
+    border: none;
+    box-shadow: none;
+}
+p.ambassadors {
+    font-size: 22px;
+    font-weight: 100;
+    color: #000000b5;
+}
+.benefits-section .big-texts {
+    font-size: min(250px, 15vw);
+    font-weight: bold;
+    line-height: 100%;
+    position: relative;
+    opacity: 0.2;
+    transform: translatey(30%);
+    background: linear-gradient(to bottom, var(--primary) 0%, rgba(255,0,0,0) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(0 0 0 / 88%);
+}
+.big-text {
+    font-size: min(250px, 15vw);
+    font-weight: bold;
+    line-height: 100%;
+    position: relative;
+    opacity: 0.2;
+    transform: translatey(30%);
+    background: linear-gradient(to bottom, var(--primary) 0%, rgba(255,0,0,0) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.narrow-section {
+    padding: 50px 0;
+}
+.purple-background {
+    background-color: #6B0DEE;
+    color: #ffffff;
+}
+h2.our_team_subhead{
+font-size: 45px;
+font-weight: bold;
+line-height: 57px;
+}
+p.our_team_para{
+    font-size: 20px;
+    line-height: 35px;
+    margin: 0;
+}
+p.subheading{
+    font-size: 22px;
+    line-height: 35px;
+    margin: 0;
+    font-weight: normal;
+}
+a.nav-link.text-light.fs-6.text-orchid {
+    color: #dc50c7 !important;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+}
+.presentation-tab {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 9;
+    background-color: #710cfd;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.presentation-tab > span {
+    width: 25px;
+    padding: 0.6rem 0 0.15rem;
+    font-size: 0.8rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+.social-icon-bar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.icon-bar a .icon-text {
+    display: none;
+}
+
+.icon-bar:hover .icon-text {
+    position: relative;
+    display: block;
+    z-index: 99999999;
+}
+
+.social-icon-bar a:hover {
+    background-color: #2a2a2a;
+    color: var(--violet-color);
+}
+.icon-bar{
+    position: fixed !important;
+    top: 40% !important;
+}
+.submin-heading {
+    color: gray;
+}
+.big-text {
+    font-size: min(250px, 15vw);
+    font-weight: bold;
+    line-height: 100%;
+    position: relative;
+    opacity: 0.2;
+    transform: translatey(30%);
+    background: linear-gradient(to bottom, var(--primary) 0%, rgba(255,0,0,0) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
